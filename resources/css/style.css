@@ -1,0 +1,198 @@
+
+/************************************************
+DEFAULT SETTING
+************************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #fff;
+    color: #555;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;/* 뭔지 모르겠다 */
+    font-family: 'Nanum Gothic', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.clearfix{
+    zoom:1;
+}
+
+.clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box{
+    padding: 1%;
+}
+
+section{
+    padding: 80px 0;
+}
+
+
+h1{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2{
+    text-align: center;
+    font-size: 180%;
+    margin-bottom: 30px;
+}
+
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #f39c12;
+    border-bottom: 1px solid #f39c12;
+    padding-bottom: 2px;
+    transition: padding-bottom 0.2s, border-bottom 0.2s;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: padding-bottion 0.2s, border-bottom 0.2s;
+}
+
+
+
+/************************************************
+HEADER
+************************************************/
+
+header{
+    background-image: url(img/practice_main.JPG),  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.header_text_box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    transform: translate(15%, -50%);
+    
+}
+
+
+/************************************************
+SECTION-MAP
+************************************************/
+
+.map_img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.location_how i{
+    float: left;
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #f39c12;
+    border-radius: 50%;
+    font-size: 150%;
+    color: #f39c12;
+}
+
+.location_how p{
+    display: inline-block;
+    width: 80%;
+}
+
+.location_how{
+    margin-bottom: 50px;
+    
+}
+
+.btn_map img{
+    height: 60px;
+    width: auto;
+    margin-right: 40px;
+}
+
+.btn_map:link,
+.btn_map:visited{
+    border: 0;
+}
+
+
+/************************************************
+SECTION-FAMILY
+************************************************/
+
+.short_letter{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;/* width가 70%니 margin-left가 15%이면 중간임 */
+    
+}
+
+
+blockquote{
+    line-height: 145%;
+    margin-top: 40px;
+    padding: 2%;
+}
+
+cite{
+    display: block;
+    
+}
+
+cite img{
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+cite div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/************************************************
+SECTION-MOVIE
+************************************************/
+
+
+
+
+
+/************************************************
+FOOTER
+************************************************/
