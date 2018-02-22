@@ -85,7 +85,7 @@ HEADER
 ************************************************/
 
 header{
-    background-image: url(img/wedding_main_cut.JPG),  linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));
+    background-image: url(img/wedding_main_cut.png),  linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));
     background-position:top;
     background-size: cover;
     height: 100vh;
