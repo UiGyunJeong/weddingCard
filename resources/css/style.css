@@ -19,6 +19,11 @@ html, body{
     overflow-x: hidden;
 }
 
+header, section{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
 
 .clearfix{
     zoom:1;
