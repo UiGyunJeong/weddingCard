@@ -70,16 +70,10 @@ h2{
 a:link,
 a:visited{
     text-decoration: none;
-    border-bottom: 1px solid #f39c12;
     padding-bottom: 2px;
-    transition: padding-bottom 0.2s, border-bottom 0.2s;
 }
 
-a:hover,
-a:active{
-    border-bottom: 1px solid transparent;
-    transition: padding-bottion 0.2s, border-bottom 0.2s;
-}
+
 
 
 
@@ -258,12 +252,22 @@ SECTION-PHOTO
     float: left;
 }
 
-
 .show-case .y2014{
     display: block;
     width: 25%;
     float: left;
 }
+
+.show-case .y2017,
+.show-case .y2016,
+.show-case .y2015,
+.show-case .y2014{
+    display: none;
+}
+
+
+
+
 
 .photo {
     width: 100%;
@@ -284,12 +288,17 @@ SECTION-PHOTO
     transition: transform 0.5s, opacity 0.5s;
 }
 
+
+
 .photo-btn{
-    display: block;
+    display: inline-block;
+    font-weight: 300;
     width: 100%;
     margin: 5% 0 1% 0;
     border-top: 1px solid #555; 
+    padding-top: 2%;
 }
+
 
 
 
