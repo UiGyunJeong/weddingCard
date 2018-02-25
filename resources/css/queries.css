@@ -25,6 +25,19 @@
     body { font-size: 18px; }
     section { padding: 40px 0; }
     
+    .location_box:first-child{
+        margin-bottom: 10px;
+    }
+    
+    .location_how{
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    
+    .location_how:last-child{
+        margin-top: 30px;
+    }
+    
 }
 
 
