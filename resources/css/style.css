@@ -192,7 +192,7 @@ SECTION-FAMILY
     line-height: 145%;
     width: 70%;
     margin-left: 15%;/* width가 70%니 margin-left가 15%이면 중간임 */
-    
+    text-align: center;
 }
 
 
