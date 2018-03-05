@@ -88,6 +88,9 @@ header{
     height: 100vh;
 }
 
+header h2{
+    color: #fff;    
+}
 
 .header_text_box{
     text-align: center;
