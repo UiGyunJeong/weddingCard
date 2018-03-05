@@ -67,6 +67,14 @@ h2{
 }
 
 
+h3{
+    font-size: 150%;
+}
+
+h4{
+    font-size: 120%;
+}
+
 a:link,
 a:visited{
     text-decoration: none;
@@ -114,6 +122,14 @@ header h2{
 SECTION-MAP
 ************************************************/
 
+.section-location{
+    line-height: 150%
+}
+
+.section-location h4{
+    margin-top: 5%;
+}
+
 .location_box:first-child{
     padding: 3% 1% 0 0;
 }
@@ -156,12 +172,12 @@ SECTION-MAP
 
 .btn_map {
     display: inline-block;
-    width: 30%;
+    width: 49%;
 }
 
 .btn_map img{
     height: 60px;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 
 .btn_map:link,
@@ -190,6 +206,8 @@ SECTION-MOVIE
 /************************************************
 SECTION-FAMILY
 ************************************************/
+
+
 
 .short_letter{
     line-height: 145%;

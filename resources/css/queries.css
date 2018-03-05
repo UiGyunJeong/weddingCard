@@ -23,6 +23,7 @@
 @media only screen and (max-width: 767px) {
     h1{font-size: 200%;}
     h2{font-size:160%;}
+    h3{font-size: 130%;}
     body { font-size: 18px; }
     section { padding: 40px 0; }
     
@@ -34,6 +35,12 @@
         margin-bottom: 20px;
         line-height: 25px;
     }
+    
+    .location_how i::before{
+        margin-top: 4px;
+    }
+    
+    
     
     .location_how:last-child{
         margin-top: 30px;
