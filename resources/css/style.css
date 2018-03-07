@@ -94,6 +94,7 @@ header{
     background-position:top;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 header h2{
