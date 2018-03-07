@@ -31,6 +31,10 @@
         margin-bottom: 10px;
     }
     
+    .sb-caption{
+        font-size: 50%;
+    }
+    
     .location_how{
         margin-bottom: 20px;
         line-height: 25px;
