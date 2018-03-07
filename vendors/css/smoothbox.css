@@ -121,13 +121,13 @@ body, html {
 /* buttons */
 .sb-nav {
     position:absolute;
-    top: 10px;
+    top: -40px;
     width: 100%;
     margin: 0 auto;
     display: none;
     z-index: 10;
     text-align: center;
-    opacity: .5;
+    opacity: .7;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     font-size: 0;
