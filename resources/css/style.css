@@ -217,11 +217,14 @@ SECTION-FAMILY
     text-align: center;
 }
 
+.parent{
+}
 
 blockquote{
     line-height: 145%;
     margin-top: 40px;
     padding: 2%;
+
 }
 
 cite{
@@ -280,10 +283,10 @@ SECTION-PHOTO
     float: left;
 }
 
-.show-case .y2017,
-.show-case .y2016,
-.show-case .y2015,
-.show-case .y2014{
+.show-case .js2017,
+.show-case .js2016,
+.show-case .js2015,
+.show-case .js2014{
     display: none;
 }
 
