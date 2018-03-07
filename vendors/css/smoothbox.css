@@ -121,7 +121,7 @@ body, html {
 /* buttons */
 .sb-nav {
     position:absolute;
-    top: -40px;
+    top: -50px;
     width: 100%;
     margin: 0 auto;
     display: none;
@@ -144,8 +144,8 @@ body, html {
 
 .sb-prev, .sb-next, .sb-cancel {
     display: inline-block;
-    background:rgb(0,0,0);
-    background: rgba(0, 0, 0, 0.9);
+    background:rgb(0, 0, 0);
+    background: rgba(83, 83, 83, 0.9);
     position: relative;
     zoom:1;
     outline:none;
